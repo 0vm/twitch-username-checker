@@ -1,8 +1,11 @@
-# DEPRECIATED, UNEFFICIENT, CHECK PROFILE FOR NEW VERSION.
+# Twitch Username Checker
+dep.js and index.js are two distinct files with different functionalities.
 
-# Twitch Username Scanner
+dep.js focuses on request-based operations and relies on the powerful axios library. It excels in making HTTP requests and handling responses effectively. With dep.js, you can easily leverage its capabilities to perform a wide range of tasks. It can be rate limited easily.
 
-The Twitch Username Scanner is a Node.js application that allows you to check the availability of Twitch usernames. It utilises the Puppeteer library to automate the process of visiting Twitch profiles and checking for the "Sorry. Unless you’ve got a time machine, that content is unavailable." message.
+On the other hand, index.js is built on the puppeteer framework. Unlike dep.js, it utilizes a headless browser to interact with web pages. This provides flexibility in scraping and automating web-related actions. Furthermore, index.js operates independently and is not subject to rate limitations.
+
+The Twitch Username Checker is a Node.js application that allows you to check the availability of Twitch usernames. It utilises the Puppeteer library to automate the process of visiting Twitch profiles and checking for the "Sorry. Unless you’ve got a time machine, that content is unavailable." message.
 
 ## Prerequisites
 
@@ -15,17 +18,22 @@ Before running the application, make sure you have the following installed on yo
 
 1. Clone the repository:
 ```ruby
-git clone https://github.com/0vm/twitch-username-scanner-old.git
+git clone https://github.com/0vm/twitch-username-checker.git
 ```
 
 3. Navigate to the project directory:
 ```ruby
-cd twitch-username-scanner-old
+cd twitch-username-checker
 ```
 
 4. Install the dependencies:
 ```ruby
 npm install Puppeteer
+```
+
+5. Request Based Version Dependencies
+```ruby
+npm install axios
 ```
 
 ## Usage
@@ -34,10 +42,14 @@ npm install Puppeteer
 
 2. Run the application:
 ```ruby
-node .
+node index.js
+```
+or
+```ruby
+node dep.js
 ```
 
-4. The application will start checking the availability of Twitch usernames. It will create a file named `availableUsernames.txt` and append any available usernames to it.
+3. The application will start checking the availability of Twitch usernames. It will create a file named `availableUsernames.txt` and append any available usernames to it.
 
 ## Error Handling
 
