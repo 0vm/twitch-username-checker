@@ -53,7 +53,7 @@ async function checkUsernames() {
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
-  const parallelBrowsingCount = 20;
+  const parallelBrowsingCount = 10;
 
   let startIndex = 0;
   try {
