@@ -1,3 +1,5 @@
+# DEPRECIATED, UNEFFICIENT, CHECK PROFILE FOR NEW VERSION.
+
 # Twitch Username Scanner
 
 The Twitch Username Scanner is a Node.js application that allows you to check the availability of Twitch usernames. It utilises the Puppeteer library to automate the process of visiting Twitch profiles and checking for the "Sorry. Unless you’ve got a time machine, that content is unavailable." message.
@@ -13,12 +15,12 @@ Before running the application, make sure you have the following installed on yo
 
 1. Clone the repository:
 ```ruby
-git clone https://github.com/0vm/twitch-username-scanner.git
+git clone https://github.com/0vm/twitch-username-scanner-old.git
 ```
 
 3. Navigate to the project directory:
 ```ruby
-cd twitch-username-scanner
+cd twitch-username-scanner-old
 ```
 
 4. Install the dependencies:
