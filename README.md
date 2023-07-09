@@ -1,4 +1,4 @@
-# Twitch Username Checker
+# Twitch Username Scanner
 
 The Twitch Username Scanner is a Node.js application that allows you to check the availability of Twitch usernames. It utilises the Puppeteer library to automate the process of visiting Twitch profiles and checking for the "Sorry. Unless you’ve got a time machine, that content is unavailable." message.
 
@@ -69,5 +69,9 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 [MIT License](LICENSE)
 
 ---
+## Tags
+
+Twitch, username, availability, checker, scanner, automation, Selenium, Python, web scraping, web automation, web browser, Twitch usernames, 4-letter usernames, Twitch account, Twitch botting, Twitch OG account, Twitch account creation, Twitch account registration, Twitch domain, domain availability, domain checker, domain scanner, Twitch domain scanner, Twitch username availability, Twitch username availability checker, Twitch username availability scanner, Twitch username bot, Twitch username tool, Twitch username availability tool, Twitch username automation, Twitch username finder, Twitch username search, Twitch username generator, Twitch username availability status, Twitch username validation, Twitch account management, Twitch account utilities, Twitch username list, Twitch username batch check, Twitch username bulk checker, Twitch username verification, Twitch username suggestions, Twitch account security, Twitch account setup, Twitch account management, Twitch account automation, Twitch username policy, Twitch username restrictions, Twitch username guidelines, Twitch username rules, Twitch username filtering, Twitch username format, Twitch username randomizer
+
 
 *Note: Please be mindful of Twitch's terms of service when using this application. Respect Twitch's policies and guidelines regarding username availability and usage.*
