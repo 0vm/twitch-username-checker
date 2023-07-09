@@ -51,11 +51,11 @@ You can customise the application by modifying the following parameters:
 
 ## ⚠️ Warning ⚠️
 
-**This application utilizes significant CPU and RAM resources due to the nature of the operations it performs. Please consider the following before running the application:**
+**This application utilises significant CPU and RAM resources due to the nature of the operations it performs. Please consider the following before running the application:**
 
 - Running this application may cause high CPU and RAM usage on your machine, especially when scanning multiple URLs concurrently.
 - It is recommended to run this application on a device with sufficient resources or allocate dedicated resources to avoid impacting the performance of other applications running concurrently.
-- We advise running this application on a remote desktop or an unused device to minimize disruptions and ensure optimal performance.
+- We advise running this application on a remote desktop or an unused device to minimise disruptions and ensure optimal performance.
 - Adjust the `parallelBrowsingCount` variable in the `checkUsernames` function to control the number of concurrent browser tabs opened by Puppeteer. Higher values may increase resource usage.
 
 **Please proceed with caution and ensure that your system can handle the resource demands of this application before running it.**
